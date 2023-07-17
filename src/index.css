@@ -1,0 +1,136 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Poppins;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	max-width: 90%;
+	margin: 0 auto;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	padding: 15px;
+	background-color: #000;
+	color: #fff;
+}
+@media only screen and (max-width: 768px) {
+	header {
+		display: grid;
+		justify-content: center;
+		align-items: center;
+		padding: 15px;
+		background-color: #000;
+		color: #fff;
+		/* width: 363px; */
+		/* height: 69px; */
+	}
+}
+
+
+h1 a {
+	text-decoration: none;
+	color: #fff;
+}
+
+nav,
+.user {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+
+nav a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.username {
+	color: #fff;
+}
+
+.btn-logout {
+	border: 1px solid #fff;
+	background: none;
+	color: #fff;
+	padding: 5px 20px;
+	border-radius: 6px;
+	cursor: pointer;
+}
+
+.btn-logout:hover {
+	background-color: #fff;
+	color: #000;
+}
+
+/*  */
+
+.wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 500px;
+}
+
+.form1 {
+	min-width: 30%;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	background-color: #0F1014;
+	background: linear-gradient(to bottom, rgb(0, 0, 0), rgba(255, 122, 89,0));
+	border-radius: 20px;
+}
+@media only screen and (max-width: 768px) {
+	.form1 {
+		min-width: 30%;
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		background-color: #0F1014;
+		background: linear-gradient(to bottom, rgb(0, 0, 0), rgba(255, 122, 89,0));
+		border-radius: 20px;
+		min-width: 270px;
+	}
+}
+.form2 {
+	align-items: center;
+	background-color: #000;
+	margin: 0 auto;
+	text-align: center;
+	padding-bottom: 1% !important;
+	}
+
+.input-group {
+	display: flex;
+	flex-direction: column;
+	width: 70% !important; 
+	margin: 5px 0;
+	
+}
+
+.input-group ::-webkit-input-placeholder {
+	text-align: center;
+	line-height: 100px;/* Centrado vertical */
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+	  monospace;
+  }
+
+  .btn-seact{
+	margin: 2%;
+  }
+
+  .fondo-black{
+    background: linear-gradient(to top, rgb(0, 0, 0), rgba(255, 122, 89,0));
+	border-radius: 18px;
+  }
